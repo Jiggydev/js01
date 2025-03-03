@@ -73,12 +73,28 @@
 //console.log(username);
 
 
-document.addEventListener("DOMContentLoaded", function() {
+//document.addEventListener("DOMContentLoaded", function() {
+  //  document.getElementById("btn").onclick = function() {
+    //  let User = document.getElementById("userName").value;
+     // let Email = document.getElementById("email").value;
+      //console.log(User);
+      //console.log(Email);
+    //};
+  //});
+
+
+
+  document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("btn").onclick = function() {
       let User = document.getElementById("userName").value;
       let Email = document.getElementById("email").value;
-      console.log(User);
-      console.log(Email);
+     
+
+      let userData = {
+        name: User,
+        email: Email
+      };
+
+      console.log(userData);
     };
   });
-
