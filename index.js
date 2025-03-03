@@ -84,17 +84,18 @@
 
 
 
-  document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("btn").onclick = function() {
-      let User = document.getElementById("userName").value;
-      let Email = document.getElementById("email").value;
-     
+  document.addEventListener("DOMContentLoaded" ,function () {
+       document.getElementById("btn"). onclick = function () {
+        let User = document.getElementById("userName").value;
+        let Email = document.getElementById("email").value;
+       
 
-      let userData = {
+       let userData={
         name: User,
         email: Email
-      };
 
-      console.log(userData);
-    };
+       };
+
+       console.log(userData);
+      };
   });
